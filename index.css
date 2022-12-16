@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.container{
+    width: 1280px;
+    height: 2885px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    border-color: transparent;
+    background-image: linear-gradient(180deg, rgba(217, 167, 188, 1) 40%, rgba(0, 0, 0, 1) 100%);
+}
+
+.container-banner {
+    position: absolute;
+    width: 1280px;
+    height: 594.28px;
+}
+
+.container-logo {
+    height: 320px;
+    width: 320px;
+    left: 479px;
+    top: 73px;
+    position: absolute;
+    border-radius: 160px;
+}
+
+.container-header {
+    position: absolute;
+    height: 116px;
+    width: 280px;
+    top: 393px;
+    left: 500px;
+}
+
+.header-title {
+    position: absolute;
+    left: 11.07%;
+    right: 10.71%;
+    top: 0%;
+    bottom: 33.62%;
+    
+    font-style: bold;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.header-subtitle {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 66.38%;
+    bottom: 0%;
+    
+    font-style: light;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: auto;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.container-gradient {
+    position: absolute;
+    top: 593px;
+    width: 1280px;
+    height: 2290.72px;
+    background: linear-gradient(180deg, #000000 0%, rgba(217, 167, 188, 0) 75%);
+}
+
+.container-paragraph {
+    position: absolute;
+    font-style: black;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#paragraph-about {
+    width: 219px;
+    height: 58px;
+    left: 530px;
+    top: 592px;
+}
+
+#paragraph-links {
+    width: 274px;
+    height: 58px;
+    left: 503px;
+    top: 1151px;
+}
+
+#paragraph-releases {
+    width: 219px;
+    height: 58px;
+    left: 530px;
+    top: 1709px;
+}
+
+.container-text {
+    position: absolute;
+    width: 1110px;
+    height: 308px;
+    left: 85px;
+    top: 729px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    text-align: left;
+    line-height: 77px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.container-button {
+    width: 512px;
+    height: 64px;
+    left: 384px;
+
+    font-style: light;
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 32px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+    color:#FFFFFF;
+    transition: 200ms;
+}
+
+.container-button:hover {
+    background-color: #FFFFFF;
+    color: #4E3C43;
+    cursor: pointer;
+}
+
+#button-spotify {
+    top: 1260px;
+}
+
+#button-apple {
+    top: 1365px;
+}
+
+#button-newgrounds {
+    top: 1470px;
+}
+
+#button-vk {
+    top: 1575px;
+}
+
+.container-release {
+    position: absolute;
+}
+
+.release-cover {
+    width: 350px;
+    height: 350px;
+    filter: drop-shadow(25px 25px 5px rgba(0, 0, 0, 0.25));
+}
+
+.release-title {
+    font-weight: 600;
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    line-height: 38.73px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.release-subtitle {
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: 0px;
+    line-height: 38.73px;
+    font-style: normal;
+    color: #ffffff;
+}
+
+#release-hope {
+    left: 228px;
+    top: 1818px;
+}
+
+#release-pbd {
+    left: 702px;
+    top: 1818px;
+}
+
+#release-dreamin {
+    left: 228px;
+    top: 2318px;
+}
+
+#release-biohazard {
+    left: 702px;
+    top: 2318px;
+}
+
+.container-copyright {
+    position: absolute;
+    width: 266px;
+    height: 39px;
+    left: 507px;
+    top: 2818px;
+
+    font-style: black;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 39px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.5);
+}
